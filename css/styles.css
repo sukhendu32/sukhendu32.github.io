@@ -427,7 +427,7 @@ input[type='checkbox'] {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #ffffff;
+	color: #2259ec;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -435,7 +435,7 @@ input[type='checkbox'] {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #9c9ead;
+	color:#2259ec;
 }
 
 /* Dropdown Menu */
@@ -515,20 +515,34 @@ input[type='checkbox'] {
 }
 
 
+#change_img{
+
+	/* border: 1px solid red; */
+	width: 110%;
+	 margin-right: 1.5rem;
+
+}
+
+
 /******************/
 /*     Header     */
 /******************/
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../download/photo-1484417894907-623942c8ee29.jfif') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
 
 .header .h1-large {
-	margin-bottom: 1.75rem;
+	margin-bottom: -.5rem;
 	color: #ffffff;
+}
+
+.h3-java{
+	color:#2259ec;
+	margin-bottom: 1.5rem;
 }
 
 .header .btn-solid-lg:hover {
@@ -567,7 +581,7 @@ input[type='checkbox'] {
 
 .basic-1 .time {
 	margin-bottom: 0.5rem;
-	color: #0b36a8;
+	color: #2259ec;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
@@ -582,7 +596,54 @@ input[type='checkbox'] {
 /********************/
 /*     Services     */
 /********************/
-.basic-2 {
+
+#skill #icon{
+	margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2rem;
+
+
+}
+
+
+#skill #icon>div{
+
+	/* border: 1px solid green; */
+}
+
+#skill #icon>div>div{
+	
+
+	/* border: 1px solid black; */
+	width: 8rem;
+	height: 8rem;
+	margin: auto;
+
+}
+
+#skill #icon>div>div>img{
+
+	
+	/* border: 1px solid red; */
+    width: 100%;
+  
+  object-fit: cover;
+
+}
+
+#icon .Itxt{
+ 
+ margin-top: .7rem;	
+  text-align: center;
+
+}
+
+
+
+
+/* .basic-2 {
 	padding-top: 7.75rem;
 	padding-bottom: 5.25rem;
 }
@@ -612,7 +673,7 @@ input[type='checkbox'] {
 
 .basic-2 h4 {
 	letter-spacing: 1px;
-}
+} */
 
 
 /*******************/
