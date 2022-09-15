@@ -39,6 +39,12 @@ html {
 	height: 100%;
 }
 
+
+.txtblue{
+
+	color: #0b36a8;
+}
+
 body, p {
 	color: #4d5055; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
@@ -581,7 +587,7 @@ input[type='checkbox'] {
 
 .basic-1 .time {
 	margin-bottom: 0.5rem;
-	color: #2259ec;
+	color: #0b36a8;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
@@ -590,6 +596,21 @@ input[type='checkbox'] {
 
 .basic-1 h6 {
 	margin-bottom: 0.125rem;
+}
+
+#myimg{
+
+/* border: 1px solid red; */
+
+width: 5rem;
+
+}
+
+#myimg>img{
+
+	width: 15rem;
+	margin-top: -7rem;
+	margin-left: -3rem;
 }
 
 
@@ -640,6 +661,53 @@ input[type='checkbox'] {
 
 }
 
+
+#skill2{
+
+
+	
+   margin-top: 5rem;
+
+}
+
+
+#skill2 h1{
+
+	margin-bottom: 2rem;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+   
+ #skill #icon{
+
+	grid-template-columns: repeat(3,1fr);
+ }
+
+
+ #myimg>img{
+
+	margin-left: -2rem;
+ }
+
+}
+
+
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+
+   
+	#skill #icon{
+   
+	   grid-template-columns: repeat(2,1fr);
+	}
+
+	#myimg>img{
+
+		margin-left: -1rem;
+	 }
+   
+   }
 
 
 
@@ -754,6 +822,19 @@ input[type='checkbox'] {
 /*****************/
 /*     Works     */
 /*****************/
+
+
+#work{
+
+	margin-top: 5rem;
+}
+
+#work h1{
+
+	margin-bottom: 3rem;
+}
+
+
 .basic-4 {
 	padding-bottom: 1rem;
 }
@@ -786,7 +867,7 @@ input[type='checkbox'] {
 /* end of hover animation */
 
 
-/************************/
+**********************
 /*     Testimonials     */
 /************************/
 .cards-1 {
@@ -996,7 +1077,7 @@ a:hover.back-to-top {
 /***********************/
 /*     Extra Pages     */
 /***********************/
-.ex-header {
+/* .ex-header {
 	padding-top: 8.5rem;
 	padding-bottom: 4rem;
 	background-color: #24262a;
@@ -1047,7 +1128,7 @@ a:hover.back-to-top {
 .ex-cards-1 .card .list-unstyled .media-body h5 {
 	margin-top: 0.125rem;
 	margin-bottom: 0.375rem;
-}
+} */
 
 
 /*************************/
