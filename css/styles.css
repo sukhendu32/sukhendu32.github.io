@@ -619,11 +619,11 @@ width: 5rem;
 /********************/
 
 #skill #icon{
-	margin-top: 2rem;
+	margin-top: 4rem;
 
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  gap: 2rem;
+  gap: 3rem;
 
 
 }
@@ -634,12 +634,18 @@ width: 5rem;
 	/* border: 1px solid green; */
 }
 
+.gap{
+
+margin-bottom: 3rem;
+
+}
+
 #skill #icon>div>div{
 	
 
 	/* border: 1px solid black; */
-	width: 8rem;
-	height: 8rem;
+	width: 7rem;
+	height: 7rem;
 	margin: auto;
 
 }
@@ -684,6 +690,10 @@ width: 5rem;
 	grid-template-columns: repeat(3,1fr);
  }
 
+ #skill2 h3{
+	font-size: 17px;
+ }
+
 
  #myimg>img{
 
@@ -704,7 +714,11 @@ width: 5rem;
 
 	#myimg>img{
 
-		margin-left: -1rem;
+		margin-left: 4rem;
+	 }
+
+	 #skill2 h3{
+		font-size: 13px;
 	 }
    
    }
