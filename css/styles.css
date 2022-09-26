@@ -868,6 +868,13 @@ margin-bottom: 3rem;
 	margin-left: auto;
 }
 
+.redbtn{
+
+ border: 1px solid red;
+ color: #0b36a8;
+
+}
+
 .basic-4 .image-container img {
 	margin: 0;
 	transition: all 0.2s;
