@@ -700,6 +700,15 @@ margin-bottom: 3rem;
 	margin-left: -2rem;
  }
 
+
+ #contrib img{
+
+	width: 100%;
+
+   }
+
+
+
 }
 
 
@@ -707,6 +716,14 @@ margin-bottom: 3rem;
 @media all and (min-width: 0px) and (max-width: 768px) {
 
    
+ 
+     #contrib{
+
+      display: none;
+
+	 }
+
+
 	#skill #icon{
    
 	   grid-template-columns: repeat(2,1fr);
