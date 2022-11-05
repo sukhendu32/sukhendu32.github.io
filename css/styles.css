@@ -894,9 +894,20 @@ margin-bottom: 3rem;
 .redbtn{
 
  border: 1px solid red;
+ padding: 1px;
  color: #0b36a8;
 
 }
+
+
+.greenbtn{
+
+	border: 1px solid green;
+	padding: 1px;
+	color: #0b36a8;
+   
+   }
+
 
 .basic-4 .image-container img {
 	margin: 0;
